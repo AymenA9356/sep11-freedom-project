@@ -1,16 +1,18 @@
 # Tool Learning Log
 
-Tool: **X**
+Tool: **Jquery**
 
-Project: **X**
+Project: **Airplane Take off speed calculator**
 
 ---
 
-X/X/X:
-* Text
+10/23/2023:
+* jQuery is a fast, small, and feature-rich JavaScript library
+*  I used the [jQuery](https://api.jqueryui.com/category/effects/) documentation, to understand the basics of what jquery does.
+*What is jQuery? jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. This [Video](https://www.youtube.com/watch?v=T2mFyPxL-fU) also helped me understand what it is.
 
-X/X/X:
-* Text
+
+
 
 
 <!-- 
@@ -20,3 +22,4 @@ X/X/X:
 * Questions you still have
 * What you're going to try next
 -->
+
