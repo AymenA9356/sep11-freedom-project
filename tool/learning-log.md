@@ -84,6 +84,16 @@ Inside the success callback, a loop iterates through each user and dynamically c
 
 * $('#users').append(userCard);: Appends the user card to the #users div.
 * error: function() { ... }: Handles errors in case the API request fails.
+
+
+
+11/27/2023
+
+
+
+
+
+
 <!--
 * Links you used today (websites, videos, etc)
 * Things you tried, progress you made, etc
