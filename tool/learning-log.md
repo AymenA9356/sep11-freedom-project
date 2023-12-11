@@ -87,10 +87,27 @@ Inside the success callback, a loop iterates through each user and dynamically c
 
 
 
-11/27/2023
+12/4/2023
+
+learned on how to grabe the element of a list using Jquery.
 
 
 
+`.add()` *
+ Create a new jQuery object with elements added to the set of matched elements
+
+
+`.addBack()`
+* Add the previous set of elements on the stack to the current set, optionally filtered by a selector.
+
+
+
+`.addClass()`
+* Adds the specified class(es) to each element in the set of matched elements.
+
+
+`.after()`
+* Insert content, specified by the parameter, after each element in the set of matched elements.
 
 
 
@@ -101,4 +118,6 @@ Inside the success callback, a loop iterates through each user and dynamically c
 * Questions you still have
 * What you're going to try next
 -->
+
+
 
