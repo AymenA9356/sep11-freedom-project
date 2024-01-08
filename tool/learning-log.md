@@ -93,13 +93,28 @@ learned on how to grabe the element of a list using Jquery.
 
 
 
-`.add()` *
- Create a new jQuery object with elements added to the set of matched elements
+`.add()`
+* Create a new jQuery object with elements added to the set of matched elements
 
 
 `.addBack()`
 * Add the previous set of elements on the stack to the current set, optionally filtered by a selector.
+for example
+```html
+<ul>
+  <li>list item 1</li>
+  <li>list item 2</li>
+  <li class="third-item">list item 3</li>
+  <li>list item 4</li>
+  <li>list item 5</li>
+</ul>
+```
+```js
 
+$( "li.third-item" ).nextAll().addBack()
+  .css( "background-color", "red" );
+  ```
+  So what does this do? So in the list we have a class that is called `third item`. we then add a `.nextAll` so Jquery added everything that is after that class and then we call the css file and make the background color red>
 
 
 `.addClass()`
@@ -108,6 +123,36 @@ learned on how to grabe the element of a list using Jquery.
 
 `.after()`
 * Insert content, specified by the parameter, after each element in the set of matched elements.
+Example
+```html
+
+<div class="container">
+  <h2>Greetings</h2>
+  <div class="inner">Hello</div>
+  <div class="inner">Goodbye</div>
+</div>
+```
+```js
+$( ".inner" ).after( "<p>Test</p>" );
+```
+ So we can see that after we used the .after() a new parigraph is made with the string "Test" in it.
+ so first we see a class called `inner` and then we tell jquery to add a `<p></p>` after every class that have that and we get this
+ result.
+ RESULT:
+ ```html
+ <div class="container">
+  <h2>Greetings</h2>
+  <div class="inner">Hello</div>
+  <p>Test</p>
+  <div class="inner">Goodbye</div>
+  <p>Test</p>
+</div>
+```
+
+**12/18/2023 BLOG 3**
+
+
+
 
 
 
