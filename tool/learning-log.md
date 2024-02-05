@@ -147,6 +147,7 @@ $( ".inner" ).after( "<p>Test</p>" );
   <div class="inner">Goodbye</div>
   <p>Test</p>
 </div>
+
 ```
 
 **12/18/2023 BLOG 3**
