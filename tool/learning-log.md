@@ -91,7 +91,7 @@ Inside the success callback, a loop iterates through each user and dynamically c
 
 learned on how to grabe the element of a list using Jquery.
 
-
+**12/18/2023 BLOG 3**
 
 `.add()`
 * Create a new jQuery object with elements added to the set of matched elements
@@ -109,7 +109,7 @@ for example
   <li>list item 5</li>
 </ul>
 ```
-```js
+```javascript
 
 $( "li.third-item" ).nextAll().addBack()
   .css( "background-color", "red" );
@@ -150,7 +150,6 @@ $( ".inner" ).after( "<p>Test</p>" );
 
 ```
 
-**12/18/2023 BLOG 3**
 
 
 
