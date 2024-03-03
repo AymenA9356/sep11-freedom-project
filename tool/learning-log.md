@@ -149,8 +149,17 @@ $( ".inner" ).after( "<p>Test</p>" );
 </div>
 
 ```
+Week 3-3-2024
+[.Empty and .remove Video](https://www.youtube.com/watch?v=nYBa0UGLn4g&list=PL4cUxeGkcC9hNUJ0j6ccnOAcJIPoTRpO4&index=11)
+
+This video talk about how we can use `.empty` and `.remove`. `.empty` emptys content what ever is inside it, Eample:
+`$(".button").empty()`
+What ever was in the element button it would be gone but the element would not be dealeted.
 
 
+Ther is also anotherone called `.remove`. This takes the element and snapes it out of existance like what Thanos did, Eample:
+`$(".button").remove()`
+This will dealete the element and what ever is inside it.
 
 
 
