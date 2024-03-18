@@ -98,7 +98,7 @@ During this process, I developed the ability **how to Learn**. I learned a great
 
 
 ## EDP
-Currently, we are still in the second process of the Engineering Design Process (EDP), which includes doing a problem investigation. We may now seek solutions to the problem that we have identified and characterized. Many planes in the field of flight simulation simply provide you with the actual take-off speeds. But whether the runway is cold, dry, or wet is unknown to the plane's computer. As a result, I'm developing a calculator that will account for all of those variables, including air pressure, temperature, runway condition, wind speed, and direction.
+Currently, we are still in the second third of the Engineering Design Process (EDP), which includes doing a problem investigation. We may now seek solutions to the problem that we have identified and characterized. Many planes in the field of flight simulation simply provide you with the actual take-off speeds. But whether the runway is cold, dry, or wet is unknown to the plane's computer. As a result, I'm developing a calculator that will account for all of those variables, including air pressure, temperature, runway condition, wind speed, and direction.
 
 
 
