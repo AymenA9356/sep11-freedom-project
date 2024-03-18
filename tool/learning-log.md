@@ -166,6 +166,16 @@ This will dealete the element and what ever is inside it.
 
 In this video it talks about removing and attribute and also changing an attriute. This video talk about two ways to change an attribute. One way is just removing it and another way is changing the name of the attribute. They are called `.removeattr` and the other one is `.attr`
 
+### Learning log #10
+
+#### CSS with jQuery
+  [CSS with jQuery](https://www.youtube.com/watch?v=Z-Ihvvy93bw&list=PL4cUxeGkcC9hNUJ0j6ccnOAcJIPoTRpO4&index=13)
+
+  In this video it shows us how to check the proporty of a certant element for example:
+  `$("#social-nav").css("proportyName")`
+
+  To change a proporty all we do is say what proporty we want to change, add a cuma and then we pass a value that we want to change. lets say that the `#social-nav` class has a top value of 100px and we want to change it to 200px we can do `$("#social-nav").css("top" , "200px")`. and thats it.
+
 
 
 
