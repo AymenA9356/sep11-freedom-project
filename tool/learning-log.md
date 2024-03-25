@@ -199,7 +199,12 @@ $("#food").click(function(){
 So when we click on an elment with the id of `food` an alert popes up and whn we click on it again nothing happens because we turned it off.
 
 
+### Learning log #12
+#### Event Object
 
+[Event Object](https://www.youtube.com/watch?v=7D5geVe2K4Q&list=PL4cUxeGkcC9hNUJ0j6ccnOAcJIPoTRpO4&index=18)
+
+In this video it shows us how to access the event object during events (such as click events) in your code. For example
 
 <!--
 * Links you used today (websites, videos, etc)
