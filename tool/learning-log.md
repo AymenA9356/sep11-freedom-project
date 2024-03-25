@@ -178,6 +178,28 @@ In this video it talks about removing and attribute and also changing an attriut
 
 
 
+  ### Learning log #11
+  #### Event Helpers
+  [Event Helpers](https://www.youtube.com/watch?v=nJ8mj9w-qEk&list=PL4cUxeGkcC9hNUJ0j6ccnOAcJIPoTRpO4&index=16)
+
+Event helpers are essentially methods that refer to a specific event, such as .click(). They remove the necessity to write the `.on("click")` event binder. lets see this in action.
+Lets say I have a an id of `#food` and I want something to happen when I click on an img that has the id of food. we can say:
+```js
+$("#food").click(function(){
+  alert(" This is food!");
+})
+```
+To unbind an elemnt it is almost the same but we add something we add `.off`. For example:
+```js
+$("#food").click(function(){
+  alert(" This is food!");
+  $("#food").off("click");
+})
+```
+So when we click on an elment with the id of `food` an alert popes up and whn we click on it again nothing happens because we turned it off.
+
+
+
 
 <!--
 * Links you used today (websites, videos, etc)
