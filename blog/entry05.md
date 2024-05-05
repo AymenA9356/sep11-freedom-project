@@ -19,9 +19,21 @@ Coding the CSS and HTML was the easy part of the project, but nun the less it wa
 ![](<../img/V-Speed Cal.jpeg>)
 
 Scince thir was no proper chart for the Saab 340A I used this chart but changed the numbers a little because the Q400 is a much bigger plane than the Saab 340A.
-![alt text](<../img/Screenshot 2024-05-05 114424.jpg>)
+![](<../img/Screenshot 2024-05-05 114424.jpg>)
 
-Even though this is one part of the array thier is still more that includes the presure, tempurture, airport elevation, etc
+Even though this is one part of the array thier is still more that includes the presure, tempurture, airport elevation, etc.
+
+To help me finish this project I asked my cousin that works at airbus plane systems to help me code this project. He agreed and me and him started with coding. He first looked over my code and fixed a few things like any cemi colins that I needed to add and variables that he thoiught I needed and was missing. After he looked it over he then He started to explane things that a plane needs and also. Me and him started coding and he tought about things if I did not know how to code a section. He told me to talk things over and list what you need to do for the code to work and then break down what that list needs and then look thru notes and or online to see if it works.
+
+## Skills
+During this process of building my MVP, I developed the ability to on **Collaboration**. By collaborating closely and leveraging each other's strengths, Me and my cousin can write better code and achieve our goals more effectively as a team, and as family members.Another skill I learned was **Communication**.Me and my partner helped eachother by communicating in what we need and what we want, and what we will do in this project.
+
+
+
+## EDP(Engineering Design Process)
+
+Currently, we are in the senth part of the EDP (Engineering Design Process) which is to improve. Now that we a working product all we need to do now is just to keep moving forward and going up from their. Improving the product will make it better and thus will make other people like the product. When people like things they share it out and we gain popularity.
+
 
 
 
