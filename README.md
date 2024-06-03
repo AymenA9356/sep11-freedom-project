@@ -8,15 +8,21 @@ For my project, I chose to independently study **Jquery** in order to help me ma
 
 ## Links
 
-[Product]()
+[Product](https://aymena9356.github.io/sep11-freedom-project/)
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1YgQlro7tS7BhhFQ2h6Wf7eHIxhPnIrre8Ceac-b9F8Y/edit#slide=id.p)
 
 ## Implications
 ##### PROS
-*
+* Being able to calculate the V-Speed of a prop
+* Being able to provide viable information
+* Being able to insert many kinds of information into the calculator
+* Will give you errors if you are outside the limits
 ##### CONS
-*
+* Only limited to one Aircraft
+* Not always Acurite
+* People not being able to understand what to do
+* How it looks
 
 
 ## Blog

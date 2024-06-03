@@ -8,15 +8,15 @@
 </head>
 
 <body>
-    <h1>Put a weight from 19,000 - 30,000 MAKE SURE THERE IS NO Comma.</h1>
-    <h1>Choose a temp</h1>
-    <h1>Field pressure  choose 4 numbers</h1>
-    <h1>Choose an elevation</h1>
-    <h1>Runway heading Choose a number from 0-359</h1>
-    <h1>Runway slope make it 1</h1>
-    <h1>Choose wind direction 0-360</h1>
-    <h1>Choose a wind speed</h1>
-    <h1>When done click on calculate</h1>
+    <h3>Put a weight from 19,000 - 30,000 MAKE SURE THERE IS NO Comma.</h3>
+    <h3>Choose a temp</h3>
+    <h3>Field pressure  choose 4 numbers</h3>
+    <h3>Choose an elevation</h3>
+    <h3>Runway heading Choose a number from 0-359</h3>
+    <h3>Runway slope make it 1</h3>
+    <h3>Choose wind direction 0-360</h3>
+    <h3>Choose a wind speed</h3>
+    <h3>When done click on calculate</h3>
 
         <table id="centerTable">
             <tr id="tableHeading">
@@ -198,7 +198,7 @@
 
                 ,/*weight 21000*/[[/*v1*/,/*v2*/,/*v3*/],[/*v1*/,/*v2*/,/*v3*/], [/*v1*/,/*v2*/,/*v3*/],[/*v1*/,/*v2*/,/*v3*/],[102,108,111],[102,108,111],[102,108,111],[102,108,111],[102,108,111],[103,109,111],115,/*Vflap*/]
 
-                ,/*weight 22000*/[[104,110,113],[105,110,113], [105,110,113],[104,110,113],[104,110,113],[104,110,113],[104,111,113],[104,111,113],[105,111,113],[107,111,113],118,/*Vflap*/]
+                ,/*weight 22000*/[[104,110,113],[105,110,113],[105,110,113],[104,110,113],[104,110,113],[104,110,113],[104,111,113],[104,111,113],[105,111,113],[107,111,113],118,/*Vflap*/]
 
                 ,/*weight 23000*/[[107,112,116],[107,112,116], [107,112,116],[107,112,116],[107,112,116],[107,113,116],[108,113,116],[107,113,116],[108,114,116],[110,115,116],120,/*Vflap*/]
 
@@ -750,14 +750,14 @@
                         let retString = '';
                         //the function checks the input ranges and returns ether error messages or the checked values
                         if (weight > 30000 || weight < 19000){
-                            retString += ' If weight below 19.000 lbs, set the value to 19.000 min |';
+                            retString += 'If weight below 19.000 lbs, set the value to 19.000 min';
                             $(document).ready(function() {
                                 $("#centerTable").css("border", "4px solid red");
                             });
 
                         }
                         if (temperature > 50 || temperature < -40){
-                            retString += '| Temperature Error: Temperature out of range, takeoff not possible |';
+                            retString += 'Temperature out of range, takeoff not possible';
                             $(document).ready(function() {
                                 $("#centerTable").css("border", "4px solid red");
                             });
